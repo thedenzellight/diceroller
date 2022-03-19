@@ -12,7 +12,6 @@ time.sleep(3)
 a = 0
 b = dices
 
-#Пока b больше a, повторять и выдавать случайное число от 1 до dicenumber
 while b > a:
     print("Dice #", a+1, ":", random.randint(1, dicenumber))
     a = a + 1
